@@ -1,0 +1,28 @@
+.aboutus_section
+{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 10% 35% 45% 10%;
+}
+
+.aboutus-text
+{
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutus-grid
+{
+    grid-column-start: 3;
+    width: 100%;
+    overflow-y: scroll;
+    height: 100%;
+}

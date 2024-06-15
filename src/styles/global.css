@@ -10,6 +10,11 @@ body {
     padding: 0;
 }
 
+h1
+{
+    margin: 0;
+}
+
 /* General styles for h3 elements */
 h3 {
     font-size: medium;
