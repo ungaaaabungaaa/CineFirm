@@ -59,3 +59,42 @@
 }
 
 
+
+.marquee {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee div {
+    display: inline-block;
+    width: 100%;
+    animation: marquee 10s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0%   { transform: translateY(0); }
+    100% { transform: translateY(-100%); }
+  }
+
+
+
+
+  .marquee2 {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee2 div {
+    display: inline-block;
+    width: 100%;
+    animation: marquee 5s linear infinite;
+  }
+  
+  @keyframes marquee2 {
+    0%   { transform: translateY(0); }
+    100% { transform: translateY(-100%); }
+  }
+
+
+
+

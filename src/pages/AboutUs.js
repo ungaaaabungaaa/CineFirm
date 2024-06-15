@@ -24,19 +24,15 @@ const AboutUs = () => {
         </div>
 
         <div className='aboutus-grid'>
-           <div className='scrool_card_layout_1'>
-              <br></br>
-              <br></br>
+           <div className='scrool_card_layout_1 marquee'>
               <div className='cards'></div>
               <div className='cards'></div>
               <div className='cards'></div>
               <div className='cards'></div>
               <div className='cards'></div>
               <div className='cards'></div>
-               <br></br>
-              <br></br>
            </div>
-           <div className='scrool_card_layout_2'>
+           <div className='scrool_card_layout_2 marquee2'>
               <div className='cards'></div>
               <div className='cards'></div>
               <div className='cards'></div>
@@ -46,17 +42,13 @@ const AboutUs = () => {
               <div className='cards'></div>
               <div className='cards'></div>
            </div>
-           <div className='scrool_card_layout_3'>
-              <br></br>
-              <br></br>
+           <div className='scrool_card_layout_3 marquee'>
               <div className='cards'></div>
               <div className='cards'></div>
               <div className='cards'></div>
               <div className='cards'></div>
               <div className='cards'></div>
               <div className='cards'></div>
-              <br></br>
-              <br></br>
            </div>
         </div>
       </div>
