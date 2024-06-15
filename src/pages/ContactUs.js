@@ -2,15 +2,15 @@
 import React from 'react';
 import Header from '../components/header';
 import '../styles/contactus.css';
-import Footer from '../components/footer';
-import SideNav from '../components/sidenav';
+import DarkFooter from '../components/darkfooter';
+import DarkSideNav from '../components/darksidenav';
 import transition from '../transition';
 
 const ContactUs = () => {
   return (
     <div>
        <Header></Header>
-       <SideNav></SideNav>
+       <DarkSideNav></DarkSideNav>
        <div className='contantus_section'>
         <div className='context'>
           <h1 className='contact_us_h1'>Contact US</h1>
@@ -22,7 +22,7 @@ const ContactUs = () => {
           cinefirm@gmail.com</p>
         </div>
        </div>
-       <Footer></Footer>
+       <DarkFooter></DarkFooter>
     </div>
   );
 };
