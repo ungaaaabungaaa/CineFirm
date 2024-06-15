@@ -9,3 +9,27 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* General styles for h3 elements */
+h3 {
+    font-size: medium;
+    font-weight: normal;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Add a smooth transition for the transform property */
+}
+
+/* Dark mode styles */
+.dark-mode h3 {
+    color: #ffffff;
+}
+
+/* Light mode styles */
+.light-mode h3 {
+    color: #000000;
+}
+
+/* Hover effect for h3 elements */
+h3:hover {
+    transform: scale(1.2); /* Scale the element to 1.1 times its original size */
+} 
+

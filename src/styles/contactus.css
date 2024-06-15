@@ -2,7 +2,34 @@
 {
     width: 100vw;
     height: 100vh;
+    background-color: #FFF;
     background-image: url('../res/background.jpeg'); /* Adjust the path to your background image */
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+}
+
+.context
+{
+    width: 75%;
+    height: 45%;
+}
+
+.contact_us_h1
+{
+    margin: 0;
+    padding: 0;
+    font-size: 4.2rem;
+    color: black;
+}
+
+.contact_us_p
+{
+    margin: 0;
+    padding: 0;
+    color: black;
 }

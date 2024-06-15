@@ -1,0 +1,13 @@
+.footer
+{
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
+    width: 32vw;
+    bottom: 0;
+    position: absolute;
+    height: auto; 
+    margin-left: 2.4rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
