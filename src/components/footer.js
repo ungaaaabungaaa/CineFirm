@@ -4,7 +4,7 @@ import '../styles/footer.css';
 
 const Footer = () => {
   
-const navigate = useNavigate();
+  const navigate = useNavigate();
   const handleNavigation = (path) => {
     navigate(path);
   };
