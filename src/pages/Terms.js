@@ -1,10 +1,11 @@
 // src/components/Home.js
 import React from 'react';
+import Header from '../components/header';
 
 const Terms = () => {
   return (
     <div>
-      <h1>terms Page</h1>
+       <Header></Header>
     </div>
   );
 };

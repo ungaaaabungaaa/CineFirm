@@ -1,10 +1,11 @@
 // src/components/Home.js
 import React from 'react';
+import Header from '../components/header';
 
 const AboutUs = () => {
   return (
     <div>
-      <h1>about us</h1>
+      <Header></Header>
     </div>
   );
 };
