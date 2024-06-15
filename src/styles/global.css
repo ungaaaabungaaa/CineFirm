@@ -30,6 +30,33 @@ h3 {
 
 /* Hover effect for h3 elements */
 h3:hover {
-    transform: scale(1.2); /* Scale the element to 1.1 times its original size */
+    transform: scale(1.2); /* Scale the element to 1.2 times its original size */
 } 
 
+
+
+/* Transition Effect */
+.slide-in
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    transform-origin: bottom;
+}
+
+
+.slide-out
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    transform-origin: top;
+}
+
+/* Transition Effect */

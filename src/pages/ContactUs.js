@@ -3,11 +3,14 @@ import React from 'react';
 import Header from '../components/header';
 import '../styles/contactus.css';
 import Footer from '../components/footer';
+import SideNav from '../components/sidenav';
+import transition from '../transition';
 
 const ContactUs = () => {
   return (
     <div>
        <Header></Header>
+       <SideNav></SideNav>
        <div className='contantus_section'>
         <div className='context'>
           <h1 className='contact_us_h1'>Contact US</h1>
@@ -21,4 +24,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default transition(ContactUs);
