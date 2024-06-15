@@ -3,7 +3,7 @@
     width: 100vw;
     height: 100vh;
     background-color: #FFF;
-    background-image: url('../res/background.jpeg'); /* Adjust the path to your background image */
+    background-image: url('../res/background.webp'); /* Adjust the path to your background image */
     background-size: cover;
     background-position: center;
     display: flex;
