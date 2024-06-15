@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: 10% 30% 55% 5%;
+    grid-template-columns: 10% 35% 40% 10%;
 }
 
 .aboutus-text {
@@ -52,16 +52,10 @@
     width: 92%;
     border: none;
     outline: none;
-    border-radius: 2.2rem;
-    height: 280px;
+    border-radius: 1.2rem;
+    height: 210px;
     margin-bottom: 20px; /* Add some space between cards */
     flex-shrink: 0; /* Prevent cards from shrinking */
 }
 
 
-/* Hide scrollbar for webkit browsers (Chrome, Safari) */
-.scrool_card_layout_1::-webkit-scrollbar,
-.scrool_card_layout_2::-webkit-scrollbar,
-.scrool_card_layout_3::-webkit-scrollbar {
-    display: none;
-}

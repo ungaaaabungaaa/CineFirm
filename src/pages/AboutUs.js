@@ -33,7 +33,7 @@ const AboutUs = () => {
               <div className='cards'></div>
               <div className='cards'></div>
               <div className='cards'></div>
-              <br></br>
+               <br></br>
               <br></br>
            </div>
            <div className='scrool_card_layout_2'>
