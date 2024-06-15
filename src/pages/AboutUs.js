@@ -24,7 +24,40 @@ const AboutUs = () => {
         </div>
 
         <div className='aboutus-grid'>
-           
+           <div className='scrool_card_layout_1'>
+              <br></br>
+              <br></br>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <br></br>
+              <br></br>
+           </div>
+           <div className='scrool_card_layout_2'>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+           </div>
+           <div className='scrool_card_layout_3'>
+              <br></br>
+              <br></br>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <div className='cards'></div>
+              <br></br>
+              <br></br>
+           </div>
         </div>
       </div>
       <Footer></Footer>
