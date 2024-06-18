@@ -20,24 +20,24 @@ const slideContents = [
 
   },
   {
-    client: 'Author 2',
-    desc: 'Description 2',
+    client: 'Yuki',
+    desc: 'Stylish food shot for a restaurant in Bangalore',
     type: 'Food Photography'
   },
   {
-    client: 'Author 3',
-    desc: 'Description 3',
-    type: 'Food'
+    client: 'Brooks And Bonds Brewery',
+    desc: 'Continental, American, North Indian, Italian, Fast Food, Beverages, Desserts',
+    type: 'Brewery Shoot'
   },
   {
-    client: 'Author 4',
-    desc: 'Description 4',
-    type: 'Food'
+    client: '',
+    desc: 'Wedding Shoot Pre Wedding Shoot ',
+    type: 'Wedding Photography '
   },
   {
-    client: 'Author 5',
-    desc: 'Description 5',
-    type: 'Food'
+    client: '2 Bros Pizza',
+    desc: 'hands down best pizza in New York City, Brooklyn and the Bronx.',
+    type: 'Food Photography'
   },
 ];
 
