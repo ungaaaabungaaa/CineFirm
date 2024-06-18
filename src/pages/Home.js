@@ -14,29 +14,30 @@ const slides = [slide1, slide2, slide3, slide4, slide5];
 
 const slideContents = [
   {
-    author: 'Author 1',
-    name: 'Title 1',
-    desc: 'Description 1',
+    client: 'Boba Bhai',
+    desc: 'Boba Bhai started it’s journey in mid 2023. serve he best Indianised versions of bubble teas sold across the globe.',
+    type: 'Food Photography'
+
   },
   {
-    author: 'Author 2',
-    name: 'Title 2',
+    client: 'Author 2',
     desc: 'Description 2',
+    type: 'Food Photography'
   },
   {
-    author: 'Author 3',
-    name: 'Title 3',
+    client: 'Author 3',
     desc: 'Description 3',
+    type: 'Food'
   },
   {
-    author: 'Author 4',
-    name: 'Title 4',
+    client: 'Author 4',
     desc: 'Description 4',
+    type: 'Food'
   },
   {
-    author: 'Author 5',
-    name: 'Title 5',
+    client: 'Author 5',
     desc: 'Description 5',
+    type: 'Food'
   },
 ];
 
@@ -102,9 +103,8 @@ const Home = () => {
             <div className="item" key={index}>
               <img src={slide} alt={`slider ${index + 1}`} />
               <div className="content">
-                <div className="author">{slideContents[index].author}</div>
-                <div className="title">{slideContents[index].name}</div>
-                <div className="topic">Food Photography</div>
+                <div className="author">{slideContents[index].client}</div>
+                <div className="topic">{slideContents[index].type}</div>
                 <div className="des">{slideContents[index].desc}</div>
               </div>
             </div>
@@ -117,8 +117,8 @@ const Home = () => {
           <div className="item" key={index}>
             <img src={slide} alt={`thumbnail ${index + 1}`} />
             <div className="content">
-              <div className="title">{slideContents[index].name}</div>
-              <div className="description">{slideContents[index].desc}</div>
+              <div className="title">{slideContents[index].client}</div>
+              <div className="description">{slideContents[index].type}</div>
             </div>
           </div>
         ))}
