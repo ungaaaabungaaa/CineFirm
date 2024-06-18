@@ -17,7 +17,6 @@ const slideContents = [
     client: 'Boba Bhai',
     desc: 'Boba Bhai started it’s journey in mid 2023. serve he best Indianised versions of bubble teas sold across the globe.',
     type: 'Food Photography'
-
   },
   {
     client: 'Yuki',
@@ -31,8 +30,8 @@ const slideContents = [
   },
   {
     client: '',
-    desc: 'Wedding Shoot Pre Wedding Shoot ',
-    type: 'Wedding Photography '
+    desc: 'Wedding Shoot Pre Wedding Shoot',
+    type: 'Wedding Photography'
   },
   {
     client: '2 Bros Pizza',
@@ -54,6 +53,8 @@ const Home = () => {
     const prevDom = document.getElementById('prev');
 
     const showSlider = (type) => {
+      if (!sliderRef.current || !thumbnailRef.current || !carouselRef.current) return;
+
       const sliderItemsDom = sliderRef.current.children;
       const thumbnailItemsDom = thumbnailRef.current.children;
 
@@ -68,8 +69,10 @@ const Home = () => {
       }
 
       setTimeout(() => {
-        carouselRef.current.classList.remove('next');
-        carouselRef.current.classList.remove('prev');
+        if (carouselRef.current) {
+          carouselRef.current.classList.remove('next');
+          carouselRef.current.classList.remove('prev');
+        }
       }, timeRunning);
 
       clearTimeout(runNextAuto);
@@ -78,16 +81,18 @@ const Home = () => {
       }, timeAutoNext);
     };
 
-    nextDom.onclick = () => showSlider('next');
-    prevDom.onclick = () => showSlider('prev');
+    if (nextDom && prevDom) {
+      nextDom.onclick = () => showSlider('next');
+      prevDom.onclick = () => showSlider('prev');
 
-    runNextAuto = setTimeout(() => {
-      nextDom.click();
-    }, timeAutoNext);
+      runNextAuto = setTimeout(() => {
+        nextDom.click();
+      }, timeAutoNext);
+    }
 
     return () => {
-      nextDom.onclick = null;
-      prevDom.onclick = null;
+      if (nextDom) nextDom.onclick = null;
+      if (prevDom) prevDom.onclick = null;
       clearTimeout(runNextAuto);
     };
   }, [timeRunning, timeAutoNext]);
