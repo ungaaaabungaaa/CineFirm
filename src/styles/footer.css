@@ -4,7 +4,8 @@
     margin-bottom: 1.1rem;
     width: 32vw;
     bottom: 0;
-    position: absolute;
+    position: fixed;
+    z-index: 100;
     height: auto; 
     margin-left: 2.4rem;
     display: flex;

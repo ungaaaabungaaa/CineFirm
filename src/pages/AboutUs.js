@@ -26,29 +26,21 @@ const AboutUs = () => {
         </div>
 
         <div className='aboutus-grid'>
-          <div className='scrool_card_layout_1 marquee'>
-            
+          <div className='scrool_card_layout_1 marquee'>           
               <div className='cards2' id='profile1'></div>
               <div className='cards2'></div>
               <div className='cards2' id='profile2'></div>
               <div className='cards2'></div>
               <div className='cards2' id='profile3'></div>
               <div className='cards2'></div>
-
-      
-            
           </div>
           <div className='scrool_card_layout_2 marquee2'>
-            
               <div className='cards'></div>
               <div className='cards' id='profile4'></div>
               <div className='cards'></div>
               <div className='cards' id='profile5'></div>
               <div className='cards'></div>
               <div className='cards' id='profile6'></div>
-         
-            
-            
           </div>
           <div className='scrool_card_layout_3 marquee'>
          

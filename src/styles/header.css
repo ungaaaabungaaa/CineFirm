@@ -2,6 +2,7 @@
     width: 100vw;
     display: grid;
     position: fixed;
+    z-index: 100;
     margin: 0;
     padding: 0;
     display: flex;

@@ -3,7 +3,8 @@
     height: 82vh;
     width: auto;
     display: flex;
-    position: absolute;
+    position: fixed;
+    z-index: 100;
     align-self: center;
     justify-content: flex-end;
     flex-direction: column;
