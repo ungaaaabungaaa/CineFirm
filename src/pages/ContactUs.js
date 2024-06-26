@@ -7,11 +7,12 @@ import DarkSideNav from '../components/darksidenav';
 import transition from '../transition';
 
 const ContactUs = () => {
+  
   return (
     <div>
        <Header></Header>
        <DarkSideNav></DarkSideNav>
-       <div className='contantus_section'>
+       <div id='bg-move' className='contantus_section'>
         <div className='context'>
           <h1 className='contact_us_h1'>Contact US</h1>
           <br></br>
