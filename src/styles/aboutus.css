@@ -1,168 +1,110 @@
 .aboutus_section {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 10% 40% 40% 5%;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%;
 }
 
 .aboutus-text {
-    grid-column-start: 2;
-    width: 85%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
+  grid-column-start: 2;
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .aboutus-grid {
-    grid-column-start: 3;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 2% 30% 3% 30% 3% 30% 2%;
-    height: 100%;
-    overflow: hidden;
+  grid-column-start: 3;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .scrool_card_layout_1,
 .scrool_card_layout_2,
 .scrool_card_layout_3 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: flex-start; /* Align cards to the top for vertical scroll */
-    flex-direction: column; /* Ensure cards stack vertically */
-    overflow-y: auto; /* Enable vertical scrolling */
-    grid-column-start: 2;
-    scrollbar-width: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  -ms-overflow-style: none; /* IE and Edge */
 }
 
-.scrool_card_layout_2 {
-    grid-column-start: 4;
+.scrool_card_layout_1::-webkit-scrollbar,
+.scrool_card_layout_2::-webkit-scrollbar,
+.scrool_card_layout_3::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
 
-.scrool_card_layout_3 {
-    grid-column-start: 6;
+.cards, .cards2 {
+  background-color: #18181C;
+  width: 92%;
+  border: none;
+  outline: none;
+  border-radius: 1.2rem;
+  height: 210px;
+  margin-bottom: 20px; /* Add some space between cards */
+  flex-shrink: 0; /* Prevent cards from shrinking */
+  will-change: transform;
 }
-
-.cards {
-    background-color: #18181C;
-    width: 92%;
-    border: none;
-    outline: none;
-    border-radius: 1.2rem;
-    height: 210px;
-    margin-bottom: 20px; /* Add some space between cards */
-    flex-shrink: 0; /* Prevent cards from shrinking */
-}
-
 
 .cards2 {
-    background-color: #18181C;
-    width: 92%;
-    border: none;
-    outline: none;
-    border-radius: 1.2rem;
-    height: 240px;
-    margin-bottom: 20px; /* Add some space between cards */
-    flex-shrink: 0; /* Prevent cards from shrinking */
+  height: 240px;
 }
 
-
-
 .marquee {
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .marquee div {
-    display: inline-block;
-    width: 100%;
-    animation: marquee 10s linear infinite;
-  }
-  
-  @keyframes marquee {
-    0%   { transform: translateY(0); }
-    100% { transform: translateY(-250%); }
-  }
+  overflow: hidden;
+  position: relative;
+}
 
+.marquee div {
+  display: flex;
+  flex-direction: column;
+  animation: marquee 10s linear infinite;
+}
 
+@keyframes marquee {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-250%); }
+}
 
+.marquee2 {
+  overflow: hidden;
+  position: relative;
+}
 
-  .marquee2 {
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .marquee2 div {
-    display: inline-block;
-    width: 100%;
-    animation: marquee 5s linear infinite;
-  }
-  
-  @keyframes marquee2 {
-    0%   { transform: translateY(0); }
-    100% { transform: translateY(-250%); }
-  }
+.marquee2 div {
+  display: flex;
+  flex-direction: column;
+  animation: marquee2 5s linear infinite;
+}
 
+@keyframes marquee2 {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-250%); }
+}
 
-#profile1
-{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(/src/res/profile/profile1.webp);
-}  
+#profile1, #profile2, #profile3, #profile4, #profile5, #profile6, #profile7, #profile8, #profile9 {
+background-repeat: no-repeat;
+background-size: cover;
+}
 
-#profile2
-{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(/src/res/profile/profile2.webp);
-}  
-
-#profile3
-{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(/src/res/profile/profile3.webp);
-}  
-
-#profile4
-{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(/src/res/profile/profile4.webp);
-}  
-
-#profile5
-{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(/src/res/profile/profile5.webp);
-}  
-
-#profile6
-{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(/src/res/profile/profile6.webp);
-}  
-
-
-#profile7
-{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(/src/res/profile/profile7.webp);
-}  
-
-#profile8
-{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(/src/res/profile/profile8.webp);
-}  
-
-
+/* Individual profile background-image settings */
+#profile1 { background-image: url(/src/res/profile/profile1.webp); }
+#profile2 { background-image: url(/src/res/profile/profile2.webp); }
+#profile3 { background-image: url(/src/res/profile/profile3.webp); }
+#profile4 { background-image: url(/src/res/profile/profile4.webp); }
+#profile5 { background-image: url(/src/res/profile/profile5.webp); }
+#profile6 { background-image: url(/src/res/profile/profile6.webp); }
+#profile7 { background-image: url(/src/res/profile/profile7.webp); }
+#profile8 { background-image: url(/src/res/profile/profile8.webp); }
