@@ -19,9 +19,8 @@ const AboutUs = () => {
             Videography company.
           </h1>
           <p>
-            We are passionate about our craft & dedication <br />
-            towards art. We chose this path with the <br />
-            confidence in our work & adaptability to the <br /> tough conditions that we face while we work
+            
+          We are dedicated artists, driven by our passion for photography & videography. With unwavering confidence in our work and the ability to adapt to challenging conditions, we embrace every project with enthusiasm and creativity.
           </p>
         </div>
 

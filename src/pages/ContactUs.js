@@ -16,11 +16,7 @@ const ContactUs = () => {
         <div className='context'>
           <h1 className='contact_us_h1'>Contact US</h1>
           <br></br>
-          <p className='contact_us_p'>Get in touch with us for any photography or videography <br></br>
-           requirement. We specialise in food shoots, corporate <br></br>
-            events, commercials, weddings and social media videos. <br></br>
-             Contact us at +91-9885859637 or send an email to  <br></br>
-          cinefirm@gmail.com</p>
+          <p className='contact_us_p'>For all your photography and videography needs, we're here to help! Specializing <br></br> in food shoots, corporate events, commercials, weddings, & social media videos, <br></br> we deliver top-notch services tailored to your requirements. <br></br> <br></br> Contact : +91-9885859637 <br></br> Email : cinefirm@gmail.com</p>
         </div>
        </div>
        <DarkFooter></DarkFooter>
