@@ -15,24 +15,24 @@ const Portfolio = () => {
        <div className='container'>
           <div className='video-grid'>
              <div className='video-layout1'>
-                <div className='video-card'></div>
-                <div className='video-card'></div>
-                <div className='video-card'></div>
-                <div className='video-card'></div>
-                <div className='video-card'></div>
+                <div id='card1' className='video-card'></div>
+                <div id='card2' className='video-card'></div>
+                <div id='card3' className='video-card'></div>
+                <div id='card4' className='video-card'></div>
+                <div id='card5' className='video-card'></div>
              </div>
              <div className='video-layout2'>
-                <div className='video-card2'></div>
-                <div className='video-card2'></div>
-                <div className='video-card2'></div>
-                <div className='video-card2'></div>
+                <div  id='card6' className='video-card2'></div>
+                <div  id='card7' className='video-card2'></div>
+                <div  id='card8' className='video-card2'></div>
+                <div  id='card9' className='video-card2'></div>
              </div>
              <div className='video-layout3'>
-                <div className='video-card'></div>
-                <div className='video-card'></div>
-                <div className='video-card'></div>
-                <div className='video-card'></div>
-                <div className='video-card'></div>
+                <div id='card10' className='video-card'></div>
+                <div id='card11' className='video-card'></div>
+                <div id='card12' className='video-card'></div>
+                <div id='card13' className='video-card'></div>
+                <div id='card14' className='video-card'></div>
              </div>
           </div>
        </div>

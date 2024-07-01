@@ -48,7 +48,12 @@
     width: 32vw;
     flex: 0 0 auto; /* Ensure the card doesn't shrink or grow */
     background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
+
 
 
 .video-card2 {
@@ -59,6 +64,9 @@
     width: 35vw;
     flex: 0 0 auto; /* Ensure the card doesn't shrink or grow */
     background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -73,4 +81,29 @@
     flex-direction: row;
     overflow-x: auto; /* Enable horizontal scrolling */
     scroll-behavior: smooth; /* Optional: smooth scrolling */
+}
+
+#card1
+{
+    background-image: url(../res/portfolio/yuki.webp);
+}
+
+#card2
+{
+    background-image: url(../res/portfolio/FashionPhotography.webp);
+}
+
+#card6
+{
+    background-image: url(../res/portfolio/wedding.webp);
+}
+
+#card7
+{
+    background-image: url(../res/portfolio/Mewar.webp);
+}
+
+#card10
+{
+    background-image: url(../res/portfolio/frenzy.webp);
 }
