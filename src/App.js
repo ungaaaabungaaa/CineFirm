@@ -27,6 +27,11 @@ import Portfolio2 from './res/portfolio/frenzy.webp';
 import Portfolio3 from './res/portfolio/Mewar.webp';
 import Portfolio4 from './res/portfolio/wedding.webp';
 import Portfolio5 from './res/portfolio/yuki.webp';
+import Portfolio6 from './res/portfolio/biryani.webp';
+import Portfolio7 from './res/portfolio/lovestory.webp';
+import Portfolio8 from './res/portfolio/shezwan.webp';
+import Portfolio9 from './res/portfolio/fashionphotography2.webp';
+
 
 // Function to preload images
 const preloadImages = (imageUrls) => {
@@ -77,6 +82,10 @@ function App() {
       Portfolio3,
       Portfolio4,
       Portfolio5,
+      Portfolio6,
+      Portfolio7,
+      Portfolio8,
+      Portfolio9,
       // Add more image URLs here if needed
     ])
       .then(() => {

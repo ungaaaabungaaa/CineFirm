@@ -83,6 +83,8 @@
     scroll-behavior: smooth; /* Optional: smooth scrolling */
 }
 
+/* Slider 1 */
+
 #card1
 {
     background-image: url(../res/portfolio/yuki.webp);
@@ -90,20 +92,80 @@
 
 #card2
 {
+    background-image: url(../res/portfolio/lovestory.webp);
+}
+
+#card3
+{
+    background-image: url(../res/portfolio/shezwan.webp);
+}
+
+#card4
+{
+    background-image: url(../res/portfolio/biryani.webp);
+}
+
+#card5
+{
     background-image: url(../res/portfolio/FashionPhotography.webp);
 }
 
-#card6
+
+
+/* Slider 1 */
+
+
+/* Slider 2 */
+
+#card8
 {
     background-image: url(../res/portfolio/wedding.webp);
 }
 
+#card6
+{
+    background-image: url(../res/slider/1.webp);
+}
+
 #card7
 {
-    background-image: url(../res/portfolio/Mewar.webp);
+    background-image: url(../res/slider/2.webp);
 }
+
+#card9
+{
+    background-image: url(../res/slider/3.webp);
+}
+
+
+
+/* Slider 2 */
+
+
+/* Slider 3 */
+
+
 
 #card10
 {
+    background-image: url(../res/portfolio/fashionphotography2.webp);
+}
+
+#card11
+{
+    background-image: url(../res/slider/5.webp);
+}
+
+#card12
+{
+    background-image: url(../res/slider/4.webp);
+}
+
+#card13
+{
     background-image: url(../res/portfolio/frenzy.webp);
 }
+
+
+
+/* Slider 3 */

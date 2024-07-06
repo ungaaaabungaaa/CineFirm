@@ -34,7 +34,6 @@ const Portfolio = () => {
                 <div id='card11' className='video-card'></div>
                 <div id='card12' className='video-card'></div>
                 <div id='card13' className='video-card'></div>
-                <div id='card14' className='video-card'></div>
              </div>
           </div>
        </div>
