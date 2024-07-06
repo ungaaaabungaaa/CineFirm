@@ -5,8 +5,10 @@ import Footer from '../components/footer';
 import SideNav from '../components/sidenav';
 import transition from '../transition';
 import '../styles/aboutus.css';
+import usePreventActions from '../hooks/usePreventActions';
 
 const AboutUs = () => {
+  usePreventActions();
   return (
     <div>
       <Header />

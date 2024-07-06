@@ -4,8 +4,10 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import SideNav from '../components/sidenav';
 import transition from '../transition';
+import usePreventActions from '../hooks/usePreventActions';
 
 const Terms = () => {
+  usePreventActions();
   return (
     <div>
        <Header></Header>

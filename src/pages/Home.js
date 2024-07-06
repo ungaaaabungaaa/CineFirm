@@ -9,6 +9,7 @@ import slide2 from '../res/slider/2.webp';
 import slide3 from '../res/slider/3.webp';
 import slide4 from '../res/slider/4.webp';
 import slide5 from '../res/slider/5.webp';
+import usePreventActions from '../hooks/usePreventActions';
 
 const slides = [slide1, slide2, slide3, slide4, slide5];
 
@@ -41,6 +42,7 @@ const slideContents = [
 ];
 
 const Home = () => {
+  usePreventActions();
   const carouselRef = useRef(null);
   const sliderRef = useRef(null);
   const thumbnailRef = useRef(null);

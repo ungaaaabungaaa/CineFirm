@@ -5,9 +5,10 @@ import '../styles/contactus.css';
 import DarkFooter from '../components/darkfooter';
 import DarkSideNav from '../components/darksidenav';
 import transition from '../transition';
+import usePreventActions from '../hooks/usePreventActions';
 
 const ContactUs = () => {
-  
+  usePreventActions();
   return (
     <div>
        <Header></Header>

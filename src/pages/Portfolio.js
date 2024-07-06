@@ -4,9 +4,11 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import SideNav from '../components/sidenav';
 import transition from '../transition';
-import '../styles/portfolio.css'
+import '../styles/portfolio.css';
+import usePreventActions from '../hooks/usePreventActions';
 
 const Portfolio = () => {
+  usePreventActions();
   return (
     <div>
        <Header></Header>
