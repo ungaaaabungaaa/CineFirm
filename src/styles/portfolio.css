@@ -42,10 +42,10 @@
 
 .video-card {
     border-radius: 1.1rem;
-    height: 100%;
-    margin-left: 0.4rem;
-    margin-right: 0.4rem;
-    width: 32vw;
+    height: 16.2rem;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+    width: 28.2rem;
     flex: 0 0 auto; /* Ensure the card doesn't shrink or grow */
     background-color: aliceblue;
     background-repeat: no-repeat;
@@ -58,10 +58,10 @@
 
 .video-card2 {
     border-radius: 1.1rem;
-    height: 100%;
-    margin-left: 0.4rem;
-    margin-right: 0.4rem;
-    width: 35vw;
+    height: 16.2rem;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+    width: 28.2rem;
     flex: 0 0 auto; /* Ensure the card doesn't shrink or grow */
     background-color: aliceblue;
     background-repeat: no-repeat;
@@ -169,3 +169,15 @@
 
 
 /* Slider 3 */
+
+
+.portfolio {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
