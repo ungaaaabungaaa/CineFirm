@@ -18,7 +18,7 @@ const Portfolio = () => {
        <div className='container'>
           <div className='video-grid'>
              <div className='video-layout1'>
-             <Marquee pauseOnHover>
+             <Marquee pauseOnClick>
                 <div id='card1' className='video-card'></div>
                 <div id='card2' className='video-card'></div>
                 <div id='card3' className='video-card'></div>
@@ -35,7 +35,7 @@ const Portfolio = () => {
             </Marquee>
              </div>
              <div className='video-layout3'>
-             <Marquee pauseOnHover>
+             <Marquee pauseOnClick>
                <div id='card10' className='video-card'></div>
                 <div id='card11' className='video-card'></div>
                 <div id='card12' className='video-card'></div>
