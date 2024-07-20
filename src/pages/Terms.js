@@ -15,8 +15,23 @@ const Terms = () => {
        <Header></Header>
        <SideNav></SideNav>
 
-    
-      
+      <div className='container'>
+        <Marquee direction='down'>
+          <br></br>
+          <div className='cards2' id='profile1'></div>
+          <br></br>
+          <div className='cards2'></div>
+          <br></br>
+          <div className='cards2' id='profile2'></div>
+          <br></br>
+          <div className='cards2'></div>
+          <br></br>
+          <div className='cards2' id='profile3'></div>
+          <br></br>
+          <div className='cards2'></div>
+        </Marquee>
+      </div>
+     
         
 
 

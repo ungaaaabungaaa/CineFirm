@@ -1,0 +1,38 @@
+.cards, .cards2 {
+    background-color: #18181C;
+    width: 220px;
+    border: none;
+    outline: none;
+    border-radius: 1.2rem;
+    height: 280px;
+    margin: 2.2rem;
+    flex-shrink: 0; /* Prevent cards from shrinking */
+    will-change: transform;
+  }
+  
+
+  #profile1, #profile2, #profile3, #profile4, #profile5, #profile6, #profile7, #profile8, #profile9 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    /* Individual profile background-image settings */
+    #profile1 { background-image: url(/src/res/profile/profile1.webp); }
+    #profile2 { background-image: url(/src/res/profile/profile2.webp); }
+    #profile3 { background-image: url(/src/res/profile/profile3.webp); }
+    #profile4 { background-image: url(/src/res/profile/profile4.webp); }
+    #profile5 { background-image: url(/src/res/profile/profile5.webp); }
+    #profile6 { background-image: url(/src/res/profile/profile6.webp); }
+    #profile7 { background-image: url(/src/res/profile/profile7.webp); }
+    #profile8 { background-image: url(/src/res/profile/profile8.webp); }
+
+
+    .container
+    {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
